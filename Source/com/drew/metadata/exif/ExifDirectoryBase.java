@@ -33,6 +33,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public abstract class ExifDirectoryBase extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_INTEROP_INDEX = 0x0001;
     public static final int TAG_INTEROP_VERSION = 0x0002;
 

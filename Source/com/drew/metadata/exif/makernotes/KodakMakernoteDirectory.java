@@ -33,6 +33,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class KodakMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public final static int TAG_KODAK_MODEL = 0;
     public final static int TAG_QUALITY = 9;
     public final static int TAG_BURST_MODE = 10;

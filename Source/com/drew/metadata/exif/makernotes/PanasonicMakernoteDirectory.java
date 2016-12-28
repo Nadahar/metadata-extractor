@@ -40,6 +40,7 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PanasonicMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
 
     /**
      * <br>

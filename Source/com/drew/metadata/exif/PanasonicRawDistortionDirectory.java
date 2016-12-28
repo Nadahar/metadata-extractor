@@ -36,6 +36,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PanasonicRawDistortionDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     // 0 and 1 are checksums
 
     public static final int TagDistortionParam02 = 2;

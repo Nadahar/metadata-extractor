@@ -34,6 +34,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class JfifDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_VERSION = 5;
     /** Units for pixel density fields.  One of None, Pixels per Inch, Pixels per Centimetre. */
     public static final int TAG_UNITS = 7;

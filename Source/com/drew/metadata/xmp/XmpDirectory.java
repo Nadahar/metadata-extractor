@@ -41,6 +41,8 @@ import java.util.*;
 @SuppressWarnings("WeakerAccess")
 public class XmpDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_XMP_VALUE_COUNT = 0xFFFF;
 
     // These are some Tags, belonging to xmp-data-tags
@@ -264,7 +266,7 @@ public class XmpDirectory extends Directory
     }
 
     @Nullable
-    private XMPMeta _xmpMeta;
+    private transient XMPMeta _xmpMeta;
 
     public XmpDirectory()
     {

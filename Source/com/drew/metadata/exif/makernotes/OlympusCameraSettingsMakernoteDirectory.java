@@ -35,6 +35,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class OlympusCameraSettingsMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TagCameraSettingsVersion = 0x0000;
     public static final int TagPreviewImageValid = 0x0100;
     public static final int TagPreviewImageStart = 0x0101;

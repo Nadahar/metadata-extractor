@@ -36,6 +36,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class OlympusMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     /** Used by Konica / Minolta cameras. */
     public static final int TAG_MAKERNOTE_VERSION = 0x0000;
     /** Used by Konica / Minolta cameras. */

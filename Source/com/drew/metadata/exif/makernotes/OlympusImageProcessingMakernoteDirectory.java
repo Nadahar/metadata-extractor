@@ -35,6 +35,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class OlympusImageProcessingMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TagImageProcessingVersion = 0x0000;
     public static final int TagWbRbLevels = 0x0100;
     // 0x0101 - in-camera AutoWB unless it is all 0's or all 256's (ref IB)

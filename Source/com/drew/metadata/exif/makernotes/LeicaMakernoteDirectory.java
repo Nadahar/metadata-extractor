@@ -35,6 +35,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class LeicaMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_QUALITY = 0x0300;
     public static final int TAG_USER_PROFILE = 0x0302;
     public static final int TAG_SERIAL_NUMBER = 0x0303;

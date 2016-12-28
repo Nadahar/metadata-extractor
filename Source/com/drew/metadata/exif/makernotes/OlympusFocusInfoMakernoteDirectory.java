@@ -35,6 +35,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class OlympusFocusInfoMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TagFocusInfoVersion = 0x0000;
     public static final int TagAutoFocus = 0x0209;
     public static final int TagSceneDetect = 0x0210;

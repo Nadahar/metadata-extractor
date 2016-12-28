@@ -34,6 +34,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class SanyoMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_MAKERNOTE_OFFSET = 0x00ff;
 
     public static final int TAG_SANYO_THUMBNAIL = 0x0100;

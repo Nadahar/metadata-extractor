@@ -35,6 +35,8 @@ import java.util.TimeZone;
 @SuppressWarnings("WeakerAccess")
 public class ExifSubIFDDirectory extends ExifDirectoryBase
 {
+    private static final long serialVersionUID = 1L;
+
     /** This tag is a pointer to the Exif Interop IFD. */
     public static final int TAG_INTEROP_OFFSET = 0xA005;
 

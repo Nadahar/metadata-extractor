@@ -34,6 +34,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class SonyType6MakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_MAKERNOTE_THUMB_OFFSET = 0x0513;
     public static final int TAG_MAKERNOTE_THUMB_LENGTH = 0x0514;
 //    public static final int TAG_UNKNOWN_1 = 0x0515;

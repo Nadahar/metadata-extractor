@@ -34,6 +34,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PsdHeaderDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     /**
      * The number of channels in the image, including any alpha channels. Supported range is 1 to 56.
      */

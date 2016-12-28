@@ -31,6 +31,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class GifHeaderDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_GIF_FORMAT_VERSION = 1;
     public static final int TAG_IMAGE_WIDTH = 2;
     public static final int TAG_IMAGE_HEIGHT = 3;

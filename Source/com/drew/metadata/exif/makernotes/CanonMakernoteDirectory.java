@@ -37,6 +37,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class CanonMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     // These TAG_*_ARRAY Exif tags map to arrays of int16 values which are split out into separate 'fake' tags.
     // When an attempt is made to set one of these on the directory, it is split and the corresponding offset added to the tagType.
     // So the resulting tag is the offset + the index into the array.

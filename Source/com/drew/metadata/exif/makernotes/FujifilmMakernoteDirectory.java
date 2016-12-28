@@ -33,6 +33,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class FujifilmMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_MAKERNOTE_VERSION = 0x0000;
     public static final int TAG_SERIAL_NUMBER = 0x0010;
 

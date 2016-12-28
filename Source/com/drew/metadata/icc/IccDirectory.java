@@ -32,6 +32,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class IccDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     // These (smaller valued) tags have an integer value that's equal to their offset within the ICC data buffer.
 
     public static final int TAG_PROFILE_BYTE_COUNT = 0;

@@ -35,6 +35,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class OlympusRawDevelopment2MakernoteDirectory extends Directory
 {    
+    private static final long serialVersionUID = 1L;
+
     public static final int TagRawDevVersion = 0x0000;
     public static final int TagRawDevExposureBiasValue = 0x0100;
     public static final int TagRawDevWhiteBalance = 0x0101;
@@ -63,7 +65,7 @@ public class OlympusRawDevelopment2MakernoteDirectory extends Directory
     @NotNull
     protected static final HashMap<Integer, String> _tagNameMap = new HashMap<Integer, String>();
 
-    static {        
+    static {
         _tagNameMap.put(TagRawDevVersion, "Raw Dev Version");
         _tagNameMap.put(TagRawDevExposureBiasValue, "Raw Dev Exposure Bias Value");
         _tagNameMap.put(TagRawDevWhiteBalance, "Raw Dev White Balance");

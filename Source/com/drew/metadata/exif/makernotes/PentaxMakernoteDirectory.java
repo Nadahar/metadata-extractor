@@ -33,6 +33,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PentaxMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     /**
      * 0 = Auto
      * 1 = Night-scene

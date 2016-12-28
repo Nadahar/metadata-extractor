@@ -36,6 +36,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class CasioType1MakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_RECORDING_MODE = 0x0001;
     public static final int TAG_QUALITY = 0x0002;
     public static final int TAG_FOCUSING_MODE = 0x0003;

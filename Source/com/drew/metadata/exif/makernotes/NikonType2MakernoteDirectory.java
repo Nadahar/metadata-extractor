@@ -47,6 +47,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class NikonType2MakernoteDirectory extends Directory
 {
+	private static final long serialVersionUID = 1L;
+
     /**
      * Values observed
      * - 0200 (D70)

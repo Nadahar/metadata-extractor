@@ -35,6 +35,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class JpegDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_COMPRESSION_TYPE = -3;
     /** This is in bits/sample, usually 8 (12 and 16 not supported by most software). */
     public static final int TAG_DATA_PRECISION = 0;

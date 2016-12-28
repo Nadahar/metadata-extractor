@@ -32,6 +32,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class AdobeJpegDirectory extends Directory {
 
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_DCT_ENCODE_VERSION = 0;
     /**
      * The convention for TAG_APP14_FLAGS0 and TAG_APP14_FLAGS1 is that 0 bits are benign.

@@ -34,6 +34,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class OlympusRawInfoMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TagRawInfoVersion = 0x0000;
     public static final int TagWbRbLevelsUsed = 0x0100;
     public static final int TagWbRbLevelsAuto = 0x0110;

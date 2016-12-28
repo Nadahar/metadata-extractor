@@ -33,6 +33,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class JpegCommentDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     /**
      * This value does not apply to a particular standard. Rather, this value has been fabricated to maintain
      * consistency with other directory types.

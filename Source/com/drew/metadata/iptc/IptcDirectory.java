@@ -40,6 +40,8 @@ import java.util.List;
 @SuppressWarnings("WeakerAccess")
 public class IptcDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     // IPTC EnvelopeRecord Tags
     public static final int TAG_ENVELOPE_RECORD_VERSION          = 0x0100; // 0 + 0x0100
     public static final int TAG_DESTINATION                      = 0x0105; // 5

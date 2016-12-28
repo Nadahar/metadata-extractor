@@ -33,6 +33,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class SonyType1MakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_CAMERA_INFO = 0x0010;
     public static final int TAG_FOCUS_INFO = 0x0020;
 

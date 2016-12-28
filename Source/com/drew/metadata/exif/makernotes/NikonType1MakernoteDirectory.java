@@ -42,6 +42,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class NikonType1MakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_UNKNOWN_1 = 0x0002;
     public static final int TAG_QUALITY = 0x0003;
     public static final int TAG_COLOR_MODE = 0x0004;

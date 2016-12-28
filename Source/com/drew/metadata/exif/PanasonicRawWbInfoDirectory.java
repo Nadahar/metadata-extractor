@@ -36,6 +36,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PanasonicRawWbInfoDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TagNumWbEntries = 0;
 
     public static final int TagWbType1 = 1;

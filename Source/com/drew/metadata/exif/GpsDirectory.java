@@ -40,6 +40,8 @@ import java.util.Locale;
 @SuppressWarnings("WeakerAccess")
 public class GpsDirectory extends ExifDirectoryBase
 {
+    private static final long serialVersionUID = 1L;
+
     /** GPS tag version GPSVersionID 0 0 BYTE 4 */
     public static final int TAG_VERSION_ID = 0x0000;
     /** North or South Latitude GPSLatitudeRef 1 1 ASCII 2 */

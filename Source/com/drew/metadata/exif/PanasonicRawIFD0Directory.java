@@ -35,6 +35,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PanasonicRawIFD0Directory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TagPanasonicRawVersion = 0x0001;
     public static final int TagSensorWidth = 0x0002;
     public static final int TagSensorHeight = 0x0003;

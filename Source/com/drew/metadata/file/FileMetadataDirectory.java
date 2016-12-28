@@ -31,6 +31,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class FileMetadataDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_FILE_NAME = 1;
     public static final int TAG_FILE_SIZE = 2;
     public static final int TAG_FILE_MODIFIED_DATE = 3;

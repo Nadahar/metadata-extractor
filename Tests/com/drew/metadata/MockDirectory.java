@@ -31,6 +31,8 @@ import java.util.HashMap;
  */
 public class MockDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     private final HashMap<Integer, String> _tagNameMap;
 
     public MockDirectory()

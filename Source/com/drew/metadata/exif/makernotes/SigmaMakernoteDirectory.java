@@ -34,6 +34,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class SigmaMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_SERIAL_NUMBER = 0x2;
     public static final int TAG_DRIVE_MODE = 0x3;
     public static final int TAG_RESOLUTION_MODE = 0x4;

@@ -31,6 +31,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class WebpDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_IMAGE_HEIGHT = 1;
     public static final int TAG_IMAGE_WIDTH = 2;
     public static final int TAG_HAS_ALPHA = 3;

@@ -32,6 +32,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PngDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_IMAGE_WIDTH = 1;
     public static final int TAG_IMAGE_HEIGHT = 2;
     public static final int TAG_BITS_PER_SAMPLE = 3;

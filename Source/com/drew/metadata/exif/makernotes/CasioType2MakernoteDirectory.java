@@ -36,6 +36,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class CasioType2MakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     /**
      * 2 values - x,y dimensions in pixels.
      */

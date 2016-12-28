@@ -34,6 +34,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class JfxxDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_EXTENSION_CODE = 5;
 
     @NotNull

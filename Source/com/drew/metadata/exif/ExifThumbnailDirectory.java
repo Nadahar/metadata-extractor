@@ -37,10 +37,13 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class ExifThumbnailDirectory extends ExifDirectoryBase
 {
+    private static final long serialVersionUID = 1L;
+
     /**
      * The offset to thumbnail image bytes.
      */
     public static final int TAG_THUMBNAIL_OFFSET = 0x0201;
+
     /**
      * The size of the thumbnail image data in bytes.
      */

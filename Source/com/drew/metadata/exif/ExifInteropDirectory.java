@@ -32,6 +32,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class ExifInteropDirectory extends ExifDirectoryBase
 {
+    private static final long serialVersionUID = 1L;
+
     @NotNull
     protected static final HashMap<Integer, String> _tagNameMap = new HashMap<Integer, String>();
 

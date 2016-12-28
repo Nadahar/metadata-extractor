@@ -32,6 +32,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PngChromaticitiesDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_WHITE_POINT_X = 1;
     public static final int TAG_WHITE_POINT_Y = 2;
     public static final int TAG_RED_X = 3;

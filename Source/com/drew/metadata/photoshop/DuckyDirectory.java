@@ -35,6 +35,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class DuckyDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_QUALITY = 1;
     public static final int TAG_COMMENT = 2;
     public static final int TAG_COPYRIGHT = 3;

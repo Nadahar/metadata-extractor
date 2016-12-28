@@ -36,6 +36,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PrintIMDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TagPrintImVersion = 0x0000;
 
     @NotNull

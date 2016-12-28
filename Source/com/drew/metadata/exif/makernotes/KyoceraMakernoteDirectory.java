@@ -33,6 +33,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class KyoceraMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_PROPRIETARY_THUMBNAIL = 0x0001;
     public static final int TAG_PRINT_IMAGE_MATCHING_INFO = 0x0E00;
 

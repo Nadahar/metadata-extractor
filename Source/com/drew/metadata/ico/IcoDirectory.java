@@ -31,6 +31,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class IcoDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_IMAGE_TYPE = 1;
 
     public static final int TAG_IMAGE_WIDTH = 2;

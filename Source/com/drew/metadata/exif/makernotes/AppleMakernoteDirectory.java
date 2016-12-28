@@ -35,6 +35,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class AppleMakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_RUN_TIME = 0x0003;
     public static final int TAG_HDR_IMAGE_TYPE = 0x000a;
     public static final int TAG_BURST_UUID = 0x000b;

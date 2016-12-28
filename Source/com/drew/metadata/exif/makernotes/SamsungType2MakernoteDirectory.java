@@ -37,6 +37,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class SamsungType2MakernoteDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     // This list is incomplete
     public static final int TagMakerNoteVersion = 0x001;
     public static final int TagDeviceType = 0x0002;

@@ -33,6 +33,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class ExifIFD0Directory extends ExifDirectoryBase
 {
+    private static final long serialVersionUID = 1L;
+
     /** This tag is a pointer to the Exif SubIFD. */
     public static final int TAG_EXIF_SUB_IFD_OFFSET = 0x8769;
 

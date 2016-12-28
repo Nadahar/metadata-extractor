@@ -31,6 +31,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class BmpHeaderDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_HEADER_SIZE = -1;
 
     public static final int TAG_IMAGE_HEIGHT = 1;

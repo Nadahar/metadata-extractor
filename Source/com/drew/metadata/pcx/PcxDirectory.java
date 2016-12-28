@@ -31,6 +31,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PcxDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_VERSION        = 1;
     public static final int TAG_BITS_PER_PIXEL = 2;
     public static final int TAG_XMIN           = 3;

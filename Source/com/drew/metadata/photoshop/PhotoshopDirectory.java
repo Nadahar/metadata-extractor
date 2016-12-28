@@ -36,6 +36,8 @@ import java.util.HashMap;
 @SuppressWarnings("WeakerAccess")
 public class PhotoshopDirectory extends Directory
 {
+    private static final long serialVersionUID = 1L;
+
     public static final int TAG_CHANNELS_ROWS_COLUMNS_DEPTH_MODE                  = 0x03E8;
     public static final int TAG_MAC_PRINT_INFO                                    = 0x03E9;
     public static final int TAG_XML                                               = 0x03EA;
